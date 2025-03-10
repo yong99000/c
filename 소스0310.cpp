@@ -1,47 +1,47 @@
 //#include <stdio.h>
 //int main()
 //{
-//	printf("¾È³çÇÏ¼¼¿ä\n");
+//	printf("ì•ˆë…•í•˜ì„¸ìš”\n");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("¾È³çÇÏ¼¼¿ä");
+//	printf("ì•ˆë…•í•˜ì„¸ìš”");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("¾È³çÇÏ¼¼¿ä\n¾È³çÇÏ¼¼¿ä\n¾È³çÇÏ¼¼¿ä\n");
+//	printf("ì•ˆë…•í•˜ì„¸ìš”\nì•ˆë…•í•˜ì„¸ìš”\nì•ˆë…•í•˜ì„¸ìš”\n");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("¾È³çÇÏ¼¼¿ä\n");
-//	printf("¾È³çÇÏ¼¼¿ä");
-//	printf("¾È³çÇÏ¼¼¿ä\n");
+//	printf("ì•ˆë…•í•˜ì„¸ìš”\n");
+//	printf("ì•ˆë…•í•˜ì„¸ìš”");
+//	printf("ì•ˆë…•í•˜ì„¸ìš”\n");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("»ç°ú 1°³\n");
+//	printf("ì‚¬ê³¼ 1ê°œ\n");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
 //	int apple = 1;
-//	printf("»ç°ú %d°³\n", apple);
+//	printf("ì‚¬ê³¼ %dê°œ\n", apple);
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("Å°º¸µå 3°³\n");
-//	printf("¸¶¿ì½º 2°³\n");
+//	printf("í‚¤ë³´ë“œ 3ê°œ\n");
+//	printf("ë§ˆìš°ìŠ¤ 2ê°œ\n");
 //	return 0;
 //}
 //#include <stdio.h>
@@ -49,8 +49,8 @@
 //{
 //	int keyboard = 3;
 //	int mouse = 2;
-//	printf("Å°º¸µå: %d°³\n", keyboard);
-//	printf("¸¶¿ì½º: %d°³\n"), mouse);
+//	printf("í‚¤ë³´ë“œ: %dê°œ\n", keyboard);
+//	printf("ë§ˆìš°ìŠ¤: %dê°œ\n", mouse);
 //	return 0;
 //}
 //#include <stdio.h>
@@ -68,7 +68,7 @@
 //	char A;
 //	A = 'A';
 //	printf("A = %c, A = %d\n", A, A);
-//	retrun 0;
+//	return 0;
 //}
 //#include <stdio.h>
 //int main()
