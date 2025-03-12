@@ -1,47 +1,47 @@
 //#include <stdio.h>
 //int main()
 //{
-//	printf("ì•ˆë…•í•˜ì„¸ìš”\n");
+//	printf("¾È³çÇÏ¼¼¿ä\n");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("ì•ˆë…•í•˜ì„¸ìš”");
+//	printf("¾È³çÇÏ¼¼¿ä");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("ì•ˆë…•í•˜ì„¸ìš”\nì•ˆë…•í•˜ì„¸ìš”\nì•ˆë…•í•˜ì„¸ìš”\n");
+//	printf("¾È³çÇÏ¼¼¿ä\n¾È³çÇÏ¼¼¿ä\n¾È³çÇÏ¼¼¿ä\n");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("ì•ˆë…•í•˜ì„¸ìš”\n");
-//	printf("ì•ˆë…•í•˜ì„¸ìš”");
-//	printf("ì•ˆë…•í•˜ì„¸ìš”\n");
+//	printf("¾È³çÇÏ¼¼¿ä\n");
+//	printf("¾È³çÇÏ¼¼¿ä");
+//	printf("¾È³çÇÏ¼¼¿ä\n");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("ì‚¬ê³¼ 1ê°œ\n");
+//	printf("»ç°ú 1°³\n");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
 //	int apple = 1;
-//	printf("ì‚¬ê³¼ %dê°œ\n", apple);
+//	printf("»ç°ú %d°³\n", apple);
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("í‚¤ë³´ë“œ 3ê°œ\n");
-//	printf("ë§ˆìš°ìŠ¤ 2ê°œ\n");
+//	printf("Å°º¸µå 3°³\n");
+//	printf("¸¶¿ì½º 2°³\n");
 //	return 0;
 //}
 //#include <stdio.h>
@@ -49,8 +49,8 @@
 //{
 //	int keyboard = 3;
 //	int mouse = 2;
-//	printf("í‚¤ë³´ë“œ: %dê°œ\n", keyboard);
-//	printf("ë§ˆìš°ìŠ¤: %dê°œ\n", mouse);
+//	printf("Å°º¸µå: %d°³\n", keyboard);
+//	printf("¸¶¿ì½º: %d°³\n", mouse);
 //	return 0;
 //}
 //#include <stdio.h>
@@ -76,6 +76,35 @@
 //	double pi;
 //	pi = 3.14;
 //	float e = 2.718;
-//	printf("pi = %.2Lf, e = %.3f.. \n", pi, e);
+//	printf("pi = %.2lf, e = %.3f.. \n", pi, e);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	double pi;
+//	pi = 3.14;
+//	char r;
+//	r = 5;
+//	float area ;
+//	area = pi * r * r;
+//	float cir;
+//	cir = pi * r * 2;
+//	printf("area = %f", area);
+//	printf("cir = %f", cir);
+//	return 0;
+//}
+#include <stdio.h>
+//int main()
+//{
+//	char b;
+//	b = 3;
+//	char t;
+//	t = 5;
+//	char h;
+//	h = 7;
+//	char area;
+//	area = (b + t) * h / 2;
+//	printf("area = %d", area);
 //	return 0;
 //}
