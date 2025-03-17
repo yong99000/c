@@ -94,7 +94,7 @@
 //	printf("cir = %f", cir);
 //	return 0;
 //}
-#include <stdio.h>
+//#include <stdio.h>
 //int main()
 //{
 //	char b;
@@ -106,5 +106,112 @@
 //	char area;
 //	area = (b + t) * h / 2;
 //	printf("area = %d", area);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int k;
+//	printf("원하는 숫자를 입력 : ");
+//	scanf("%d", &k); //vs: scanf_s
+//	printf("입력한 숫자는 : %d\n", k);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int y, x;
+//	printf("더하고 싶은 값 2개 입력 : ");
+//	scanf("%d %d", &y, &x); //scanf_s
+//	printf("두 값의 합은 %d 입니다.\n", y + x);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	char a, b, c;
+//	printf("문자 두 개 입력 : ");
+//	scanf("%c%c%c", &a, &b, &c);
+//	printf("문자출력 : %c%c%c\n", a, b, c);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int r;
+//	printf("반지름을 입력 : ");
+//	scanf("%d", &r);
+//	double pi;
+//	pi = 3.14;
+//	float area;
+//	area = r * r * pi;
+//	float cir;
+//	cir = r * 2 * pi;
+//	printf("원의 넓이는 %f입니다.\n", area);
+//	printf("원의 둘레는 %f입니다.\n", cir);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int W1, W2, H;
+//	printf("밑변의 길이, 윗변의 길이, 높이를 순서대로 입력 : ");
+//	scanf("%d %d %d", &W1, &W2, &H);
+//	float area;
+//	area = (W1 + W2) * H / 2.0;
+//	printf("사다리꼴의 넓이는 %f입니다.\n", area);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int a = 15;
+//	int b = 3;
+	//printf("%d + %d = %d\n", a, b, a + b);
+	//printf("%d - %d = %d\n", a, b, a - b);
+	//printf("%d * %d = %d\n", a, b, a * b);
+	//printf("%d / %d = %d\n", a, b, a / b);
+	//printf("%d %% %d = %d\n", a, b, a % b);
+	//return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int number = 1;
+//	number = number + 3;
+//	printf("%2d\n", number);
+//	number -= 2;
+//	printf("%2d\n", number);
+//	number--;
+//	printf("%2d\n", number);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int a = 0;
+//	printf("%d\n", a++);
+//	printf("%d\n", a);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int a = 0;
+//	printf("%d\n", ++a);
+//	printf("%d\n", a);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int a, b;
+//	printf("숫자 두 개를 입력 : ");
+//	scanf("%d %d", &a, &b);
+//	printf("%d + %d = %d\n", a, b, a + b);
+//	printf("%d - %d = %d\n", a, b, a - b);
+//	printf("%d * %d = %d\n", a, b, a * b);
+//	printf("%d / %d = %d\n", a, b, a / b);
+//	printf("%d %% %d = %d\n", a, b, a % b);
 //	return 0;
 //}
