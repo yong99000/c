@@ -1,47 +1,47 @@
-//#include <stdio.h>
+ï»¿//#include <stdio.h>
 //int main()
 //{
-//	printf("¾È³çÇÏ¼¼¿ä\n");
+//	printf("ì•ˆë…•í•˜ì„¸ìš”\n");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("¾È³çÇÏ¼¼¿ä");
+//	printf("ì•ˆë…•í•˜ì„¸ìš”");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("¾È³çÇÏ¼¼¿ä\n¾È³çÇÏ¼¼¿ä\n¾È³çÇÏ¼¼¿ä\n");
+//	printf("ì•ˆë…•í•˜ì„¸ìš”\nì•ˆë…•í•˜ì„¸ìš”\nì•ˆë…•í•˜ì„¸ìš”\n");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("¾È³çÇÏ¼¼¿ä\n");
-//	printf("¾È³çÇÏ¼¼¿ä");
-//	printf("¾È³çÇÏ¼¼¿ä\n");
+//	printf("ì•ˆë…•í•˜ì„¸ìš”\n");
+//	printf("ì•ˆë…•í•˜ì„¸ìš”");
+//	printf("ì•ˆë…•í•˜ì„¸ìš”\n");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("»ç°ú 1°³\n");
+//	printf("ì‚¬ê³¼ 1ê°œ\n");
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
 //	int apple = 1;
-//	printf("»ç°ú %d°³\n", apple);
+//	printf("ì‚¬ê³¼ %dê°œ\n", apple);
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	printf("Å°º¸µå 3°³\n");
-//	printf("¸¶¿ì½º 2°³\n");
+//	printf("í‚¤ë³´ë“œ 3ê°œ\n");
+//	printf("ë§ˆìš°ìŠ¤ 2ê°œ\n");
 //	return 0;
 //}
 //#include <stdio.h>
@@ -49,8 +49,8 @@
 //{
 //	int keyboard = 3;
 //	int mouse = 2;
-//	printf("Å°º¸µå: %d°³\n", keyboard);
-//	printf("¸¶¿ì½º: %d°³\n", mouse);
+//	printf("í‚¤ë³´ë“œ: %dê°œ\n", keyboard);
+//	printf("ë§ˆìš°ìŠ¤: %dê°œ\n", mouse);
 //	return 0;
 //}
 //#include <stdio.h>
@@ -112,34 +112,34 @@
 //int main()
 //{
 //	int k;
-//	printf("¿øÇÏ´Â ¼ıÀÚ¸¦ ÀÔ·Â : ");
+//	printf("ì›í•˜ëŠ” ìˆ«ìë¥¼ ì…ë ¥ : ");
 //	scanf("%d", &k); //vs: scanf_s
-//	printf("ÀÔ·ÂÇÑ ¼ıÀÚ´Â : %d\n", k);
+//	printf("ì…ë ¥í•œ ìˆ«ìëŠ” : %d\n", k);
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
 //	int y, x;
-//	printf("´õÇÏ°í ½ÍÀº °ª 2°³ ÀÔ·Â : ");
+//	printf("ë”í•˜ê³  ì‹¶ì€ ê°’ 2ê°œ ì…ë ¥ : ");
 //	scanf("%d %d", &y, &x); //scanf_s
-//	printf("µÎ °ªÀÇ ÇÕÀº %d ÀÔ´Ï´Ù.\n", y + x);
+//	printf("ë‘ ê°’ì˜ í•©ì€ %d ì…ë‹ˆë‹¤.\n", y + x);
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
 //	char a, b, c;
-//	printf("¹®ÀÚ µÎ °³ ÀÔ·Â : ");
+//	printf("ë¬¸ì ë‘ ê°œ ì…ë ¥ : ");
 //	scanf("%c%c%c", &a, &b, &c);
-//	printf("¹®ÀÚÃâ·Â : %c%c%c\n", a, b, c);
+//	printf("ë¬¸ìì¶œë ¥ : %c%c%c\n", a, b, c);
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
 //	int r;
-//	printf("¹İÁö¸§À» ÀÔ·Â : ");
+//	printf("ë°˜ì§€ë¦„ì„ ì…ë ¥ : ");
 //	scanf("%d", &r);
 //	double pi;
 //	pi = 3.14;
@@ -147,19 +147,19 @@
 //	area = r * r * pi;
 //	float cir;
 //	cir = r * 2 * pi;
-//	printf("¿øÀÇ ³ĞÀÌ´Â %fÀÔ´Ï´Ù.\n", area);
-//	printf("¿øÀÇ µÑ·¹´Â %fÀÔ´Ï´Ù.\n", cir);
+//	printf("ì›ì˜ ë„“ì´ëŠ” %fì…ë‹ˆë‹¤.\n", area);
+//	printf("ì›ì˜ ë‘˜ë ˆëŠ” %fì…ë‹ˆë‹¤.\n", cir);
 //	return 0;
 //}
 //#include <stdio.h>
 //int main()
 //{
 //	int W1, W2, H;
-//	printf("¹Øº¯ÀÇ ±æÀÌ, À­º¯ÀÇ ±æÀÌ, ³ôÀÌ¸¦ ¼ø¼­´ë·Î ÀÔ·Â : ");
+//	printf("ë°‘ë³€ì˜ ê¸¸ì´, ìœ—ë³€ì˜ ê¸¸ì´, ë†’ì´ë¥¼ ìˆœì„œëŒ€ë¡œ ì…ë ¥ : ");
 //	scanf("%d %d %d", &W1, &W2, &H);
 //	float area;
 //	area = (W1 + W2) * H / 2.0;
-//	printf("»ç´Ù¸®²ÃÀÇ ³ĞÀÌ´Â %fÀÔ´Ï´Ù.\n", area);
+//	printf("ì‚¬ë‹¤ë¦¬ê¼´ì˜ ë„“ì´ëŠ” %fì…ë‹ˆë‹¤.\n", area);
 //	return 0;
 //}
 //#include <stdio.h>
@@ -206,7 +206,7 @@
 //int main()
 //{
 //	int a, b;
-//	printf("¼ıÀÚ µÎ °³¸¦ ÀÔ·Â : ");
+//	printf("ìˆ«ì ë‘ ê°œë¥¼ ì…ë ¥ : ");
 //	scanf("%d %d", &a, &b);
 //	printf("%d + %d = %d\n", a, b, a + b);
 //	printf("%d - %d = %d\n", a, b, a - b);
@@ -215,3 +215,206 @@
 //	printf("%d %% %d = %d\n", a, b, a % b);
 //	return 0;
 //}
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//int main()
+//{
+//	int a, b;
+//	int result;
+//	char k;
+//
+//	printf("ì²« ë²ˆì§¸ ê³„ì‚°í•  ê°’ ==> ");
+//	scanf("%d", &a);
+//	printf("+ - * / %% ==> ");
+//	scanf(" %c", &k);
+//	printf("ë‘ ë²ˆì§¸ ê³„ì‚°í•  ê°’ ==> ");
+//	scanf("%d", &b);
+//
+//	if (k == '+') {
+//		result = a + b;
+//		printf("%d + %d = %d\n", a, b, result);
+//	}
+//
+//	if (k == '-') {
+//		result = a - b;
+//		printf("%d - %d = %d\n", a, b, result);
+//	}
+//
+//	if (k == '*') {
+//		result = a * b;
+//		printf(" %d * %d = %d\n", a, b, result);
+//	}
+//
+//	if (k == '/') {
+//		if (b != 0) {
+//			result = a / b;
+//			printf(" %d / %d = %d\n", a, b, result);
+//		} else
+//			printf(" 0ìœ¼ë¡œ ë‚˜ëˆ„ë©´ ì•ˆë©ë‹ˆë‹¤. \n");
+//	}
+//
+//	if (k == '%') {
+//		if (b != 0) {
+//			result = a % b;
+//			printf(" %d %% %d = %d\n", a, b, result);
+//		}
+//		else
+//			printf(" 0ìœ¼ë¡œ ë‚˜ëˆ„ë©´ ë‚˜ë¨¸ì§€ê°’ì´ ì•ˆë©ë‹ˆë‹¤. \n");
+//	}
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	printf("%d\n", 123);
+//	printf("%5d\n", 123);
+//	printf("%05d\n", 123);
+//
+//	printf("%f\n", 123.45);
+//	printf("%7.1f\n", 123.45);
+//	printf("%7.3f\n", 123.45);
+//
+//	printf("%s\n", "Basic-C");
+//	printf("%10s\n", "Basic-C");
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	printf("\nì¤„ ë°”ê¿ˆ\nì—°ìŠµ \n");
+//	printf("\tíƒ­í‚¤\tì—°ìŠµ \n");
+//	printf("ì´ê²ƒì„\rë®ì–´ì”ë‹ˆë‹¤ \n");
+//	printf("\a\a\aì‚ì†Œë¦¬ 3ë²ˆ \n");
+//	printf("ê¸€ìê°€ \"ê°•ì¡°\"ë˜ëŠ” íš¨ê³¼ \n");
+//	printf("\\\\\\ ì—­ìŠ¬ë˜ì‹œ ì„¸ ê°œ ì¶œë ¥ \n");
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int first = 1 % 4;
+//	printf("%d = 1%%4\n", first);
+//	int second = 5 % 3;
+//	printf("%d = 5%%3\n", second);
+//	int third = 4 % 2;
+//	printf("%d = 4%%2\n", third);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int number1, number2;
+//	scanf("%d %d", &number1, &number2);
+//	printf("%d = 1%%4\n", number1);
+//	printf("%d = 5%%3\n", number2);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int first = 1 % 3;
+//	printf("%d = 1%%3\n", first);
+//	int second = 2 % 3;
+//	printf("%d = 2%%3\n", second);
+//	int third = 3 % 3;
+//	printf("%d = 3%%3\n", third);
+//	int fourth = 4 % 3;
+//	printf("%d = 4%%3\n", fourth);
+//	int fifth = 5 % 3;
+//	printf("%d = 5%%3\n", fifth);
+//	int sixth = 6 % 3;
+//	printf("%d = 6%%3\n", sixth);
+//	return 0;	
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int k;
+//	printf("ìˆ«ìë¥¼ ì…ë ¥ : ");
+//	scanf("%d", &k);
+//	int b;
+//	b = k % 50;
+//	printf("50ìœ¼ë¡œ ë‚˜ëˆˆ ë‚˜ë¨¸ì§€ : %d", b);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int data1 = 6 / 2;
+//	printf("%d = 6/2\n", data1);
+//	int data2 = 6 / 3;
+//	printf("%d = 6/3\n", data2);
+//	int data3 = 6 / 4;
+//	printf("%d = 6/4\n", data3);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int number1, number2;
+//	scanf("%d %d", &number1, &number2);
+//	printf("%d=", number1/ number2);
+//	printf("%d/%d\n", number1, number2);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int coin;
+//	printf("ëˆì„ ì…ë ¥í•´ì£¼ì„¸ìš”.(ì›)");
+//	scanf("%d", &coin);
+//
+//	int coin10000 = coin / 10000;
+//	coin = coin % 10000;
+//	int coin5000 = coin / 5000;
+//	coin = coin % 5000;
+//	int coin1000 = coin / 1000;
+//	printf("ë§Œì›ê¶Œ %dê°œ, ", coin10000);
+//	printf("ì˜¤ì²œì›ê¶Œ %dê°œ, ", coin5000);
+//	printf("ì²œì›ê¶Œ %dê°œ, ", coin1000);
+//	printf("ë‚˜ë¨¸ì§€ëŠ” ë™ì „ì…ë‹ˆë‹¤.");
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int price;
+//	printf("ì ¤ë¦¬ ê°€ê²©ì„ ì…ë ¥ : ");
+//	scanf("%d", &price);
+//
+//	int coin;
+//	coin = 1000 - price;
+//
+//	int c500 = coin / 500;
+//	coin = coin % 500;
+//	int c100 = coin / 100;
+//	coin = coin % 100;
+//	int c50 = coin / 50;
+//	coin = coin % 50;
+//	int c10 = coin / 10;
+//	coin = coin % 10;
+//	printf("ì˜¤ë°±ì› %dê°œ, ", c500);
+//	printf("ë°±ì› %dê°œ, ", c100);
+//	printf("ì˜¤ì‹­ì› %dê°œ, ", c50);
+//	printf("ì‹­ì› %dê°œ, ", c10);
+//	return 0;
+//}
+//#include <stdio.h>
+//#include <stdlib.h>
+//int main()
+//{
+//	int randInt = rand() % 10;
+//	int nextInt = rand() % 10;
+//	printf("ì²«ìˆ«ì : %d\n", randInt);
+//	printf("ë‹¤ìŒìˆ«ì : %d", nextInt);
+//	return 0;
+//}
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main()
+{
+	srand((unsigned int)time(null));
+	int randInt = rand() % 10;
+	int nextInt = rand() % 10;
+	printf("ì²«ìˆ«ì : %d\n", randInt);
+	printf("ë‹¤ìŒìˆ«ì : %d", nextInt);
+	return 0;
+}
