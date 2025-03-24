@@ -406,15 +406,184 @@
 //	printf("다음숫자 : %d", nextInt);
 //	return 0;
 //}
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-int main()
-{
-	srand((unsigned int)time(null));
-	int randInt = rand() % 10;
-	int nextInt = rand() % 10;
-	printf("첫숫자 : %d\n", randInt);
-	printf("다음숫자 : %d", nextInt);
-	return 0;
-}
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <time.h>
+//int main()
+//{
+//	srand((unsigned int)time(NULL));
+//	int randInt = rand() % 10;
+//	int nextInt = rand() % 10+50;
+//	printf("첫숫자 : %d\n", randInt);// 0 ~ 9
+//	printf("다음숫자 : %d", nextInt);// 50 ~ 59
+//	return 0;
+//}
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <time.h>
+//int main()
+//{
+//	srand((unsigned int)time(NULL));
+//	printf("내 주머니에 있는 돈은");
+//	int myMoney = (rand() % 10 + 1) * 1000;
+//	printf("%d원이다.\n", myMoney);
+//	int coin500 = rand() % 4 * 500;
+//	int coin100 = rand() % 5000;
+//	coin100 = coin100 / 100 * 100;
+//	printf("그리고 과자의 가격은");
+//	printf(" %d원이다.", coin500 + coin100);
+//	printf("\n나는 과자를 살 수 있을까?");
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int apple = 15;
+//	if (apple == 15)
+//	{
+//		printf("apple은 15개 있습니다.\n");
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int apple = 18;
+//	if (apple != 17)
+//	{
+//		printf("apple은 17개가 아닙니다.\n");
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int apple = 15;
+//	if (apple > 7)
+//	{
+//		printf("apple은 7개보다 많습니다.\n");
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int apple = 15;
+//	if (apple < 20)
+//	{
+//		printf("apple은 20개보다 적습니다.\n");
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int apple = 15;
+//	if (apple)
+//	{
+//		printf("apple은 0개가 아닙니다.\n");
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int apple = 0;
+//	if (!apple)
+//	{
+//		printf("apple은 하나도 없습니다.\n");
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int apple = 0;
+//	if (apple == 10)
+//	{
+//		printf("apple은 10개 있습니다.\n");
+//	}
+//	else if (apple == 0)
+//	{
+//		printf("apple은 하나도 없습니다.\n");
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int apple = 15;
+//	if (!apple)
+//	{
+//		printf("apple은 하나도 없습니다.\n");
+//	}
+//	else
+//	{
+//		printf("apple은 0개가 아닙니다.\n");
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int k;
+//	printf("숫자를 입력해주세요 : ");
+//	scanf("%d", &k);
+//	if (k > 0)
+//	{
+//		printf("k는 양수 입니다.\n");
+//	}
+//	else if (k == 0)
+//	{
+//		printf("k는 0 입니다.\n");
+//	}
+//	else
+//	{
+//		printf("k는 음수 입니다.\n");
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int k;
+//	printf("숫자를 입력해주세요 : ");
+//	scanf("%d", &k);
+//	if (10 <= k && k <= 99)
+//	{
+//		printf("input은 두 자리 숫자입니다.\n");
+//	}
+//	else
+//	{
+//		printf("input은 두 자리 숫자가 아닙니다.\n");
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int height = 170;
+//	if (height > 150)
+//	{
+//		printf("키가 150 이상입니다.\n");
+//	}
+//	if (height > 160)
+//	{
+//		printf("키가 160 이상입니다.\n");
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int height = 170;
+//	if (height > 150)
+//	{
+//		printf("키가 150 이상입니다.\n");
+//	}
+//	else if (height > 160)
+//	{
+//		printf("키가 160 이상입니다.\n");
+//	}
+//	return 0;
+//}
