@@ -587,3 +587,23 @@
 //	}
 //	return 0;
 //}
+#include <stdio.h>
+int main()
+{
+	int age;
+	printf("나이를 입력하세요 : ");
+	scanf("%d", &age);
+	if (age >= 15)
+	{
+		printf("전체 관람가, 12세 관람가, 15세 관람가");
+	}
+	else if (age >= 12 && age < 15)
+	{
+		printf("전체 관람가, 12세 관람가");
+	}
+	else
+	{
+		printf("전체관람가");
+	}
+	return 0;
+}
