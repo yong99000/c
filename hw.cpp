@@ -201,3 +201,45 @@
 //		printf("양띠\n"); break;
 //	}
 //}
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//int main()
+//{
+//	char ch;
+//	printf("A, B, C 중에 하나를 누르고 Enter를 누르세요 : ");
+//	scanf("%c", &ch);
+//	switch (ch)
+//	{
+//	case 'A':
+//		printf("A를 눌렀습니다.\n"); break;
+//	case 'a':
+//		printf("a를 눌렀습니다.\n"); break;
+//	case 'B':
+//		printf("B를 눌렀습니다.\n"); break;
+//	case 'b':
+//		printf("b를 눌렀습니다.\n"); break;
+//	case 'C':
+//		printf("C를 눌렀습니다.\n"); break;
+//	case 'c':
+//		printf("c를 눌렀습니다.\n"); break;
+//	default :
+//		printf("잘못 눌렀습니다.\n");
+//	}
+//	return 0;
+//}
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//int main()
+//{
+//	char ch = 'Z';
+//		if (ch == 'A')
+//			printf("A 출력 \n");
+//		if (ch == 'B')
+//			printf("B 출력 \n");
+//		if (ch == 'C')
+//			printf("C 출력 \n");
+//		else
+//			printf("모름 \n");
+//}
