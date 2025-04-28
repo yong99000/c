@@ -1028,22 +1028,20 @@ int main()
 	{
 	case 1:
 	{
-		{
-			int number1, number2;
-			printf("숫자 두 개를 입력하세요\n");
-			scanf("%d %d", &number1, &number2);
-			printf("%d+%d = %d\n", number1, number2, number1 + number2); break;
-		}
+		int number1, number2;
+		printf("숫자 두 개를 입력하세요\n");
+		scanf("%d %d", &number1, &number2);
+		printf("%d+%d = %d\n", number1, number2, number1 + number2); break;
+	}
 	case 2:
 	{
-		{
-			int number3, number4;
+		int number3, number4;
 
-			printf("숫자 두 개를 입력하세요\n");
-			scanf("%d %d", &number3, &number4);
-			printf("%d-%d = %d\n", number3, number4, number3 - number4); break;
-		}
+		printf("숫자 두 개를 입력하세요\n");
+		scanf("%d %d", &number3, &number4);
+		printf("%d-%d = %d\n", number3, number4, number3 - number4); break;
 	}
+
 	}
 	return 0;
 	}
