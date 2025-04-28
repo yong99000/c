@@ -850,3 +850,201 @@
 //	}
 //	return 0;
 //}
+//# include <stdio.h>
+//int main()
+//{
+//	int input1, input2;
+//	char oper;
+//	int result;
+//
+//	printf("숫자를 입력 : ");
+//	scanf("%d", &input1);
+//	printf("추가 숫자 입력 : ");
+//	scanf("%d", &input2);
+//	printf("기호를 입력 : ");
+//	scanf(" %c", &oper);
+//
+//	switch (oper)
+//	{
+//	case '+':
+//		result = input1 + input2;
+//		printf("%d\n", result); break;
+//	case '-':
+//		result = input1 - input2;
+//		printf("%d\n", result); break;
+//	case '*':
+//		result = input1 * input2;
+//		printf("%d\n", result); break;
+//	case '/':
+//		result = input1 / input2;
+//		printf("%d\n", result); break;
+//	case '%':
+//		result = input1 % input2;
+//		printf("%d\n", result); break;
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int month;
+//	printf("월을 입력 : ");
+//	scanf("%d", &month);
+//
+//	switch (month)
+//	{
+//	case 1:
+//		printf("1월 > January"); break;
+//	case 2:
+//		printf("2월 > February"); break;
+//	case 3:
+//		printf("3월 > March"); break;
+//	case 4:
+//		printf("4월 > April"); break;
+//	case 5:
+//		printf("5월 > May"); break;
+//	case 6:
+//		printf("6월 > June"); break;
+//	case 7:
+//		printf("7월 > July"); break;
+//	case 8:
+//		printf("8월 > August"); break;
+//	case 9:
+//		printf("9월 > September"); break;
+//	case 10:
+//		printf("10월 > October"); break;
+//	case 11:
+//		printf("11월 > November"); break;
+//	case 12:
+//		printf("12월 > December"); break;
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	char command;
+//	printf("<, a 왼쪽 이동 \n");
+//	printf(">, d 오른쪽 이동 \n");
+//	scanf("%c", &command);
+//	
+//	switch (command)
+//	{
+//	case '<':
+//	case 'a':
+//		// case를 여러개 써서 같은 코드 실행 가능
+//		printf("왼쪽으로 이동합니다.\n"); break;
+//	case '>':
+//	case 'd':
+//		printf("오른쪽으로 이동합니다.\n"); break;
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int number;
+//	const int option = 3;
+//	printf("메뉴를 선택하세요");
+//	printf("1.새 게임 2.이어하기 3.옵션\n");
+//	scanf("%d", &number);
+//
+//	switch (number)
+//	{
+//	case 1:
+//		printf("새 게임 시작.\n"); break;
+//	case 2:
+//		printf("세이브 테이터 로드.\n"); break;
+//	case option:
+//		printf("옵션 세팅.\n"); break;
+//	default:
+//		printf("지정된 기능이 없습니다.\n"); break;
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int number;
+//	
+//	printf("숫자를 입력 : ");
+//	scanf("%d", &number);
+//
+//	switch (number)
+//	{
+//	case 3: case 6: case 9:
+//		printf("짝"); break;
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	char command = 'x';
+//
+//	switch (command)
+//	{
+//	case 'x': printf("알파벳 x 입력.\n"); break;
+//	case 'X': printf("엑스표 입력.\n"); break;
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int i_menu;
+//	printf("1.더하기 2.빼기\n");
+//	scanf("%d", &i_menu);
+//	switch (i_menu)
+//	{
+//	case 1: 
+//	{
+//		int number1, number2;
+//		{
+//			printf("숫자 두 개를 입력하세요\n");
+//			scanf("%d %d", &number1, &number2);
+//			printf("%d+%d = %d\n", number1, number2, number1 + number2); break;
+//		}
+//	}
+//	case 2:
+//	{
+//		int number3, number4;
+//		{
+//			printf("숫자 두 개를 입력하세요\n");
+//			scanf("%d %d", &number3, &number4);
+//			printf("%d-%d = %d\n", number3, number4, number3 - number4); break;
+//		}
+//	}
+//	}
+//	return 0;
+//}
+#include <stdio.h>
+int main()
+{
+	int i_menu;
+	printf("1.더하기 2.빼기\n");
+	scanf("%d", &i_menu);
+	switch (i_menu)
+	{
+	case 1:
+	{
+		{
+			int number1, number2;
+			printf("숫자 두 개를 입력하세요\n");
+			scanf("%d %d", &number1, &number2);
+			printf("%d+%d = %d\n", number1, number2, number1 + number2); break;
+		}
+	case 2:
+	{
+		{
+			int number3, number4;
+
+			printf("숫자 두 개를 입력하세요\n");
+			scanf("%d %d", &number3, &number4);
+			printf("%d-%d = %d\n", number3, number4, number3 - number4); break;
+		}
+	}
+	}
+	return 0;
+	}
+}
