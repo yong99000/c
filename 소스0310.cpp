@@ -1153,3 +1153,235 @@
 //	}
 //	return 0;
 //}
+//#include <stdio.h>
+//int main()
+//{
+//	int count = 3;
+//	while (count > 0)
+//	{
+//		printf("현재 count : %d\n", count);
+//		printf("count가 0보다 큰 동안 반복\n");
+//		count--;
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int i = 0;
+//	while (i < 6)
+//	{
+//		printf("c");
+//		i++;
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int num = -10;
+//	while (num <= 0)
+//	{
+//		printf("%d\n", num);
+//		num++;
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int num = 0;
+//	while (num <= 100)
+//	{
+//
+//		if (num % 5 == 0)
+//			printf("%d\n", num);
+//		num++;
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int count = 3;
+//	while (count)
+//	{
+//		if (count == 1)
+//		{
+//			break;
+//		}
+//		printf("현재 count : %d\n", count);
+//		printf("count가 0이 아니면 반복\n");
+//		count--;
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	char alphabet;
+//	while (1)
+//	{
+//		printf("알파벳을 입력해주세요(다른 것 입력시 다시입력):");
+//		scanf(" %c", &alphabet);
+//		if (alphabet >= 'a' && alphabet <= 'z')
+//		{
+//			printf("소문자를 입력하셨습니다.\n");
+//		}
+//		else if (alphabet >= 'A' && alphabet <= 'Z')
+//		{
+//			printf("대문자를 입력하셨습니다.\n");
+//		}
+//		else
+//		{
+//			continue;
+//		}
+//		printf("입력한 겂 : %c\n", alphabet);
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int number, total = 0;
+//	while (1)
+//	{
+//		printf("양수를 입력해주세요(0입력시 종료);");
+//		scanf("%d", &number);
+//		if (number == 0) { break; }
+//		else if (number < 0) { continue; }
+//
+//		total = total + number;
+//		printf("%d\n", total);
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int num = 1;
+//	int total = 1;
+//	while (1)
+//	{
+//		if (total >= 50000) { break; }
+//		total = total * num;
+//		num++;
+//	}
+//	printf("%d\n", total);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	char alphabet = 'A';
+//	while (alphabet <= 'Z')
+//	{
+//		if (alphabet == 'F')
+//		{
+//			alphabet++;
+//			continue;
+//		}
+//		printf(" %c\n", alphabet);
+//		alphabet++;
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int num;
+//	int total = 0;
+//	int player = 0;
+//	while (1)
+//	{
+//		printf("%c : ",'A'+ player);
+//		scanf("%d", &num);
+//
+//		if (num < 1 || num > 3)
+//		{
+//			printf("숫자는 1~3을 입력해주세요");
+//			continue;
+//		}
+//
+//		total += num;
+//		printf("=> %d\n", total);
+//
+//		if (total >= 31)
+//		{
+//			break;
+//		}
+//		//player = !player;
+//		player = ++player % 25;
+//	}
+//	printf("%c가 졌습니다.", 'A' + player);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int temperature = 20;
+//	do
+//	{
+//		printf("현재 온도 : %d도\n", temperature);
+//		temperature--;
+//	} 
+//	while (temperature > 28);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int input;
+//	enum {GAMEOVER, NEWGAME, LOADGAME, OPTION};
+//	do
+//	{
+//		printf("\n메뉴를 선택하세요.\n");
+//		printf("1.새 게임 2.이어하기 3.옵션 (0:게임종료)\n");
+//		scanf("%d", &input);
+//
+//		switch (input)
+//		{
+//		case NEWGAME:
+//			printf("새 게임 시작\n"); break;
+//		case LOADGAME:
+//			printf("세이브 데이터 로드\n"); break;
+//		case OPTION:
+//			printf("옵션 세팅\n"); break;
+//		}
+//	}
+//	while(input != GAMEOVER);
+//	printf("게임을 종료합니다.\n");
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int select;
+//	enum { LOGIN=1, SIGNIN, OPTION, MAKER };
+//	do
+//	{
+//		printf("\n메뉴를 선택하세요.\n");
+//		printf("1.로그인 2. 회원가입 3.옵션 4.만든 사람들");
+//		scanf("%d", &select);
+//
+//			//if (select < 1 || select > 4)
+//			//{
+//			//	printf("프로그램을 종료합니다.\n");
+//			//	continue;
+//			//}
+//
+//			switch (select)
+//			{
+//			case LOGIN:
+//				printf("아이디, 비밀먼호 입력\n"); break;
+//			case SIGNIN:
+//				printf("회원가입 진행\n"); break;
+//			case OPTION:
+//				printf("사용자 설정\n"); break;
+//			case MAKER:
+//				printf("제작자\n"); break;
+//			}
+//			
+//	} while (select > 0 || select < 5);
+//	return 0;
+//}
